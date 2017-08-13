@@ -27,3 +27,9 @@ Example script is in ``` merge_nms_under_folder.py ```(You need to modify the pa
  ``` reconstruct_txt.py``` is to add offsets for multiple txt yolo outputs and visualize the result.
  ``` visualize_txt_under_folder.py``` visualizes output by reading output txt and input images
  
+### Example results
+*Note: image rights belong to Nvidia!*  
+*YOLO is for detecting objects those are rare in training dataset such as bus, bike, motocycle, the common objects such as car, suv are detected by SSD*
+![resutl1](https://github.com/adwin5/multiscale-yolo-scripts/blob/master/example.jpg)
+![resutl2](https://github.com/adwin5/multiscale-yolo-scripts/blob/master/example2.jpg)
+
