@@ -4,7 +4,7 @@ We apply half size sliding windonw to slide through origin image in 3x3 times. T
 
 
 ## Pipeline
-images -> Cropped images -> Apply YOLO for detection -> convert format (json->txt) -> merge and nms
+images -> cropped images -> Apply YOLO for detection -> convert format (json->txt) -> merge and nms
 
 ### 1, Crop images
 *Prepare cropped images (x9) before detection.*  
